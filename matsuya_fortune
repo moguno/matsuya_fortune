@@ -16,8 +16,7 @@ aa = <<EOS
 EOS
 
 
-#case Time.now.hour
-case 0
+case Time.now.hour
 when 6 .. 8
   order = Matsuya.order
   puts "おはようございます。朝ごはんは松屋の「#{order}」にしませんか？"
